@@ -1,0 +1,13 @@
+@use '../abstracts/variables' as vars;
+
+dialog {
+    width: 800px;
+    border: none;
+    background-color: transparent;
+  }
+
+.getQuoteForms{
+    width: 300px;
+    height: 200px;
+    background-color:vars.$text-color ;
+}

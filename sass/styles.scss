@@ -1,0 +1,96 @@
+ @use "./base/base";
+ @use "./base/typography";
+ @use "./layout/navigation";
+ @use "./components/hamburger";
+ @use "./layout/header";
+ @use "./layout/banners";
+ @use "./components/buttons";
+ @use "./layout/blocks";
+ @use "./layout/forms";
+ @use "./pages/contact";
+ @use "./pages/home";
+ @use "./pages/product";
+ @use "./layout/footer";
+
+  
+@media screen and (max-width: 1020px) {
+    .menu-btn {
+      display: flex;
+    }
+  
+    .responsive-desktop {
+      display: none;
+    }
+  
+    .responsive-mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    nav h1 {
+      color: whitesmoke;
+    }
+  
+    .header-content-home, .header-content {
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+  
+    .header-content-home h2, .header-content h2{
+      font-size: 4rem;
+    }
+  
+  
+  
+    .first-block{
+      max-width: 100vw;
+      flex-direction: column;
+    }
+    .hide-image{
+     display: none;
+    }
+    .solutions-cards{
+      flex-direction: column;
+    }
+  
+    .split-coulms{
+      gap: 20px;
+    }
+  
+    .splite-block{
+      height: auto;
+      flex-direction: column;
+    }
+  
+    .splite-block-content{
+     align-items: center ;
+     padding: 5% 10% 5% 10%;
+      height: 360px;
+    }
+  
+    .flip-block{
+      flex-direction: column-reverse;
+    }
+    .splite-block-content h3, .splite-block-content p{
+      text-align: center;
+    }
+  
+    .splite-block-img img{
+      width: 50vh;
+      }
+  
+      .btn-quote{
+        width: auto;
+      }
+   .wrapper-products-row{
+    flex-direction: column;
+   }
+    
+   iframe{
+    /* width="600" height="450"  */
+    width: 100vw;
+    height: 350px;
+  }
+  
+  }

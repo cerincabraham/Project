@@ -1,0 +1,148 @@
+
+@use '../abstracts/variables' as varbs;
+
+
+/* menu*/
+
+.nav-main-menu,.nav-footer-menu {
+    padding: 2% 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+    h1{
+        font-family: "Bebas Neue", cursive;
+        font-size: 3.2rem;
+        font-weight: 400;
+        color: varbs.$primary-color;
+        line-height: 0;
+        transition: all 0.6s ease-in-out;    
+    }
+   
+  }
+  
+//   .nav-main-menu h1 , .logo-footer-wrapper h1 {
+//     font-family: "Bebas Neue", cursive;
+//     font-size: 3.2rem;
+//     font-weight: 400;
+//     color: varbs.$primary-color;
+//     line-height: 0;
+//     transition: all 0.6s ease-in-out;
+//   }
+
+  .nav-link-dropdown::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 105%;
+    width: 8px;
+    height: 100%;
+    content: "";
+    background: url(../img/link-dropdown.svg) center no-repeat;
+    background-size: 100% auto;
+  }
+  
+
+/* Destop */
+.responsive-desktop {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    gap: 12px;
+
+    li{
+        position: relative;
+        height:50px;
+
+        &:hover{
+            .sum-menu-1{
+                display: block;
+              }
+        }
+
+        a {
+            margin-left: 1.2rem;
+            position: relative;
+
+            &:hover{
+                color: varbs.$primary-color;
+                transition: 0.5s ease-in-out;  
+            }
+          }
+    }
+
+  }
+
+  
+
+
+  .sum-menu-1{
+    display: none;
+    position: absolute;
+    background-color:varbs.$primary-color;
+    padding: 5px 8px;
+    margin-top: 22px;
+    color: varbs.$text-color;
+    border-radius:  4px;
+    transition: 0.5s ease-in-out;
+
+    li {
+        height: auto;
+       list-style-type: none;
+       width: 120px;
+       border-radius: 4px;
+       a{
+        &:hover{
+            color: varbs.$secondary-color;
+        }
+       }
+      }
+
+  }
+  
+  
+  
+
+
+
+
+
+
+/* Mobile */
+
+.responsive-mobile {
+    list-style-type: none;
+    display: none;
+    position: fixed;
+    margin: 7rem 5%;
+    padding: 1rem 2rem;
+    top: 0;   /*calc(100% + 20px);*/
+    left: 0;
+    z-index: 2;
+    background-color:varbs.$primary-color;
+    min-height: 140px;
+    width: 90%;
+    align-items: center;
+    transform: translateY(-300px);
+    transition: all 500ms;
+  }
+  
+  .mobile-servicelist{
+    display: none;
+    text-align: center;
+  }
+  
+  .mobile-servicelist-show{
+    display:inline;
+  }
+  
+  .show-mobile {
+    transform: translateX(0);
+  }
+
+
+

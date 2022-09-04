@@ -1,0 +1,131 @@
+@use '../abstracts/variables' as varbs;
+
+
+
+/* used inProduct & contact page */
+.simple-block{
+    max-width: 80vw;
+    height: 110px;
+    margin: 0;
+    background-color: transparent;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+
+    h3{
+        color: #1bb4e1;
+      }
+  }
+
+
+  .splite-block{
+
+    width: 100vw;
+    height: 466px;
+    margin: 0;
+    background-color: varbs.$secondary-color;
+    color:varbs.$text-color;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   box-sizing: border-box;
+   /* object-fit: cover; */
+  }
+  
+  
+  .splite-block-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  
+  
+  .splite-block-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    padding: 6% 20% 6% 3%;
+  
+  }
+  
+  .splite-block-content-l{
+    align-items: flex-end;
+    padding: 8% 3% 5% 20%;
+  
+  }
+  
+  .splite-block-content-l p{
+    text-align: right;
+  }
+  
+  
+  .splite-block-img , .splite-block-content{
+    /* border: 2px green solid; */
+   flex-basis: 50%;
+  
+  /* width: 50vw; */
+  
+  }
+  
+  
+  
+  
+  .first-block{
+    max-width: 80vw;
+    height: 430px;
+    margin: 0;
+    background-color: transparent;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+  }
+  
+  .first-block h3, .simple-block h3{
+    color: varbs.$primary-color;
+  }
+
+  /*  product page  */
+.wrapper-products-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+
+  .block-product01{
+    width: 310px;
+    height: 375px;
+    background-color:varbs.$secondary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: varbs.$text-color;
+  }
+  
+  .block-product-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6px;
+  }
+  
+  
+  .block-product-btm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  

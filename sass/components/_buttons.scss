@@ -1,0 +1,38 @@
+@use '../abstracts/variables' as varbs;
+
+
+.btn-bookus{
+    margin-top: 0.8rem;
+    padding: 1rem 4rem;
+    font-weight: 300;
+    font-size: 1.4rem;
+    background-color: varbs.$primary-color;
+    color:varbs.$text-color;
+    border: none;
+   cursor: pointer;
+
+   &:hover{
+
+    background-color:varbs.$text-color;
+    color: varbs.$primary-color;
+   }
+  }
+
+  .btn-quote{
+    width: 20rem;
+    margin-top: 0.8rem;
+    padding: 1rem 4rem;
+    font-weight: 300;
+    font-size: 1.4rem;
+    background-color: varbs.$primary-color;
+    color:varbs.$text-color;
+    border: none;
+    text-align: center;
+
+    
+   &:hover{
+
+    background-color:varbs.$text-color;
+    color: varbs.$primary-color;
+   }
+  }

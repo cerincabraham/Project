@@ -1,0 +1,77 @@
+
+@use '../abstracts/variables' as vars;
+
+
+
+.splite-block{
+
+    width: 100vw;
+    height: 466px;
+    margin: 0;
+    background-color: #2c2c2c;
+    color:vars.$text-color;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   box-sizing: border-box;
+   /* object-fit: cover; */
+  }
+  
+  
+  .splite-block-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  
+  
+  .splite-block-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    padding: 6% 20% 6% 3%;
+  
+  }
+  
+  .splite-block-content-l{
+    align-items: flex-end;
+    padding: 8% 3% 5% 20%;
+
+    p{
+        text-align: right;
+      }
+  }
+  
+ 
+  
+  .splite-block-img , .splite-block-content{
+    /* border: 2px green solid; */
+   flex-basis: 50%;
+  
+  /* width: 50vw; */
+  
+  }
+  
+  
+  
+  
+  .first-block{
+    max-width: 80vw;
+    height: 430px;
+    margin: 0;
+    background-color: transparent;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+    h3{
+        color:vars.$primary-color;
+      }
+  }
+  

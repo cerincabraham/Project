@@ -1,0 +1,43 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0; /* 1.6rem*/
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 5rem;
+}
+
+/*  Semi-bold 72px */
+h2 {
+  font-weight: 600;
+  font-size: 5.2rem;
+  line-height: 4rem;
+}
+/* Regular 48px */
+h3 {
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+}
+
+/* Light 36px  */
+h4 {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}

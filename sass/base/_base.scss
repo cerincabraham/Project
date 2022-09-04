@@ -1,0 +1,35 @@
+@use '../abstracts/variables' as vars;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: "Anek Telugu", sans-serif;
+  }
+
+
+  .split-coulms{
+    max-width: 70%;
+    padding-top: 4rem;
+    background-color:rgb(255, 255, 255);
+    color:vars.$primary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+   }
+
+   a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem; /*  1.6 * 10 = 16px */
+    color: whitesmoke;
+    margin: 0;
+  }

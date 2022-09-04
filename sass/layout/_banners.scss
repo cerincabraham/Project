@@ -1,0 +1,78 @@
+@use '../abstracts/variables' as vars;
+
+.banner{
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    display: flex;
+    z-index: 0;
+   }
+   
+   
+   .banner-img-home{
+     height: vars.$banner-height-home;
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+     url("../img/Hex-2-copy-scaled.jpg");
+   
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     
+   }
+
+
+  
+.banner-img-about{
+    height: vars.$banner-height-commen;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("../img/banner02.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .banner-img-repair{
+    height: vars.$banner-height-commen;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("../img/banner03.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .banner-img-repair{
+    height: vars.$banner-height-commen;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("../img/banner04.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .banner-img-product{
+    height: vars.$banner-height-commen;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("../img/banner04.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .banner-img-contact{
+    height: vars.$banner-height-commen;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url("../img/banner03.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
